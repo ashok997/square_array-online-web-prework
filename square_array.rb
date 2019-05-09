@@ -1,3 +1,5 @@
 def square_array(array)
-  array.each do |square|
+  sq_array =[]
+  array.each do |element|
+    sq_array.unshift[element*element]
 end
